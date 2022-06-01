@@ -61,5 +61,7 @@ public class EtudiantRepositoryTests
 		assertThat(listeEtudiant).isNotEmpty();
 		assertThat(listeEtudiant.get(0).getEcole().getVille()).isEqualTo("Lyon");
 	}
+	
+	
 
 }
